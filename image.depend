@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1671037375 source:d:\insa\3e annee\c++\tp4\main.cpp
+	"image.hpp"
+	<iostream>
+
+1671037375 d:\insa\3e annee\c++\tp4\image.hpp
+
+1671038031 source:d:\insa\3e annee\c++\tp4\image.cpp
+	"image.hpp"
+	<iostream>
+	<cassert>
+
+1671041631 source:d:\insa\3a\semestre 1\c++\tp4\image.cpp
+	"image.hpp"
+	<iostream>
+	<cassert>
+
+1671040975 d:\insa\3a\semestre 1\c++\tp4\image.hpp
+
+1671040975 source:d:\insa\3a\semestre 1\c++\tp4\main.cpp
+	"image.hpp"
+	<iostream>
+
+1718787540 source:d:\insa\4a\stage\lifat\project\conv_cpp\main.cpp
+	"image.hpp"
+	<iostream>
+
+1718786375 d:\insa\4a\stage\lifat\project\conv_cpp\image.hpp
+	<string>
+	<cassert>
+	<algorithm>
+
+1718787485 source:d:\insa\4a\stage\lifat\project\conv_cpp\image.cpp
+	"image.hpp"
+	<iostream>
+	<cassert>
+

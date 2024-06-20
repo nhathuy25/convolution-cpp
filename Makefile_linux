@@ -1,0 +1,18 @@
+CC = g++
+CPPFLAGS = -ggdb -Wall -pedantic
+LD = g++
+LDFLAGS = -ggdb
+SRCS = main.cpp image.cpp
+FINAL_TARGET = simple_image
+
+default: $(FINAL_TARGET)
+
+$(FINAL_TARGET): $(SRCS:%.cpp=%.o)
+	$(LD) $+ -o $@ $(LDFLAGS) -L. -limagebmp_linux
+
+%.o: %.cpp
+	$(CC) -c $(CPPFLAGS) $< -o $@
+
+clean:
+	rm -f *.o $(FINAL_TARGET)
+
