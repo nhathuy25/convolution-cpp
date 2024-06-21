@@ -8,7 +8,7 @@
   <li> <i>Kernel3x3 (string type) </i> is a class for convolutional filter with a name type = {'none', 'horizontal', 'vertical', 'blur} </li>
 </ul>
 
-Function Convolution(ImageRGB& img, Kernel3x3$ ker) to do the task of convolution with no-padding, unit-stride takes an input image (i.e picasso.bmp with the size of 450x600) and a kernel size 3x3
+Function Convolution(ImageRGB& img, Kernel3x3& ker) to do the task of convolution with no-padding, unit-stride takes an input image (i.e picasso.bmp with the size of 450x600) and a kernel size 3x3
 
 ## Results
 Original image
